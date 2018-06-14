@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>CrystalsCollector Game</title>
+   
+   
+  </head>
+  <body>
+    <main role = "main" class="container">
+       <div class="card">
+          <h5 class="card-header">CrystalsCollector!</h5>
+             <div class="card-body">
+                <h5 class="card-title">Instructions: (You will be given a random number at the start of the game.)</h5>
+                   <p class="card-text">
+                      <ul>
+                          <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score</li>
+                           <li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+                           <li>The value of each crystal is hidden from you until you click on it.</li>
+                            <li>Each time when the game starts, the game will change the values of each crystal</li>
+                       </ul>      
+                      </p>
+                         <div class="card-deck">
+                            <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Your Random Number</div>
+                                  <div class="card-body">
+                                    <h5 id="randomNumber">Hello</h5>
+                                </div>
+                              </div>
+                              
+                              <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Wins: <h5 id="win"> 0 </h5> </h5>
+                                        <h5 class="card-title">Losses: <h5 id="loss"> 0 </h5> </h5>
+                                     </div>
+                              </div>
+                            </div>
+                                  <button id="j1"><img src="assets/images/j1.JPG"></button>
+                                  <button id="j2"><img src="assets/images/j2.JPG"></button>
+                                  <button id="j3"><img src="assets/images/j3.JPG"></button>
+                                  <button id="j4"><img src="assets/images/j4.JPG"></button>
+                                  
+                               <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                                    <div class="card-header">Your total score is</div>
+                                      <div class="card-body">
+                                         <h5 id="scoreCard">0</h5>
+                                      </div>
+                                </div>
+               </div>
+         </div>
+      </main>
+
+   <script type="text/javascript" src="assets/javascript/game.js"></script>
+ 
+
+  
+      
+        
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
