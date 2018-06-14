@@ -58,7 +58,7 @@ $(document).ready(function() {
 
      if (counter === firstNumber) 
      {
-       alert("You win!");
+       alert("Congratulations, you won!");
        win1 = win1+1;
        $("#win").html(win1);
        resetGame();
@@ -66,7 +66,7 @@ $(document).ready(function() {
 
      else if (counter >= firstNumber) 
      {
-       alert("You lose!!");
+       alert("Thanks for playing, please try again");
        loss1 = loss1+1;
        $("#loss").html(loss1);
        resetGame();
@@ -82,7 +82,7 @@ $(document).ready(function() {
 
      if (counter === firstNumber) 
      {
-       alert("You win!");
+       alert("Congratulations, you won!");
        win1 = win1+1;
        $("#win").html(win1);
        resetGame();
@@ -90,7 +90,7 @@ $(document).ready(function() {
 
      else if (counter >= firstNumber) 
      {
-       alert("You lose!!");
+       alert("Thanks for playing, please try again");
        loss1 = loss1+1;
        $("#loss").html(loss1);
        resetGame();
@@ -106,7 +106,7 @@ $(document).ready(function() {
 
      if (counter === firstNumber) 
      {
-       alert("You win!");
+       alert("Congratulations, you won!");
        win1 = win1+1;
        $("#win").html(win1);
        resetGame();
@@ -114,7 +114,7 @@ $(document).ready(function() {
 
      else if (counter >= firstNumber) 
      {
-       alert("You lose!!");
+       alert("Thanks for playing, please try again");
        loss1 = loss1+1;
        $("#loss").html(loss1);
        resetGame();
@@ -130,7 +130,7 @@ $(document).ready(function() {
 
      if (counter === firstNumber) 
      {
-       alert("You win!");
+       alert("Congratulations, you won!");
        win1 = win1+1;
        $("#win").html(win1);
        resetGame();
@@ -138,7 +138,7 @@ $(document).ready(function() {
 
      else if (counter >= firstNumber) 
      {
-       alert("You lose!!");
+       alert("Thanks for playing, please try again");
        loss1 = loss1+1;
        $("#loss").html(loss1);
        resetGame();
